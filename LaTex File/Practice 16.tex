@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[b]{0.2\linewidth}
+			
+			\includegraphics[width=\linewidth]{jaguar.jpg}
+			\caption{Jaguar.}
+		\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=linewidth]{jaguar.jpg}
+		\caption{Another jaguar.}
+	\end{subfigure}
+    \begin{subfigure}[b]{0.2\linewidth}
+    	\includegraphics[width=\linewidth]{jaguar.jpg}
+    	\caption{The third jaguar.}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\linewidth}
+    	\includegraphics[width=\linewidth]{jaguar.jpg}
+    	\caption{The biggest jaguar.}
+    \end{subfigure}
+    \caption{A lot of jaguars. Actually just one!}
+    \label{fig:jaguar3}
+\end{figure}
+
+		\end{document}
